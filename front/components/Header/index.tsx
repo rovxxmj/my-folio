@@ -64,7 +64,11 @@ const Header = () => {
             </Link>
           </ActionItem>
         </ActionItemWrapper>
-        <MyName>@rovxxmj</MyName>
+        <MyName>
+          <Link href={'/'}>
+            <a>@rovxxmj</a>
+          </Link>
+        </MyName>
       </Container>
     </Base>
   );
